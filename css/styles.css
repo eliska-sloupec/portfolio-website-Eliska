@@ -1,14 +1,6 @@
-/*
-Colors used:
-Primary Color (Black: #333333;
-BG Color (Light Pink : #FCF8F9;
-Secondary Color (Grey): #7E7A7A;
-Emphasize Color (Dark Pink)#AE8189;
-Emphasize Color (Pink) #FFC5C5;
-*/
 
 body {
-    background-color:#eee2e5;
+    background-color:#deafbb;
     font-family: 'Orkney', sans-serif;
     font-size: 16px; /* Sets the font size to 16px */
     font-weight: 300; /* Sets the font weight to 300 */
