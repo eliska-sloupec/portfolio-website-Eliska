@@ -36,3 +36,7 @@ h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
+
+.img-profile-picture-600px-1x {
+  width: 300px; 
+}
