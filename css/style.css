@@ -13,9 +13,8 @@ body {
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-  color: #4a4a4a;
+  color: #333333;
 }
-
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
