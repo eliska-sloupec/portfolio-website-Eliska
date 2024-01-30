@@ -65,9 +65,9 @@ a:focus {
   background-color: #FFC5C5;
   color: #ffffff; /* needed to override the default link color */
   font-weight: 400;
+  text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #AE8189; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 .button:hover {
@@ -82,10 +82,13 @@ a:focus {
 .button.contact {
   background-color: transparent;
   color: #AE8189;
+  text-decoration: none;
   text-transform: uppercase;
   border: 2px solid #AE8189;
 }
 .button.contact:hover {
-  background-color: #AE8189
-  ;color: #7A6367;
-}
+  background-color: #FFC5C5
+  ;color: #AE8189;  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+  }
+
