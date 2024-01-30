@@ -41,8 +41,8 @@ img {
   width: 100%;
 }
 
+/* Links */
 a {
-
 font-size: 30px; color:#AE8189;
 font-weight: bold;
 text-decoration: none;
@@ -60,6 +60,7 @@ a:active { /* selected link */ color:#7A6367;}
 a:focus {
   text-decoration: underline 10px; text-decoration-color:#FFC5C5;}
 
+/* general buttons */
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #FFC5C5;
@@ -74,11 +75,9 @@ a:focus {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
-
 .button:active {
   color:#7A6367
 }
-
 .button.contact {
   background-color: transparent;
   color: #AE8189;
