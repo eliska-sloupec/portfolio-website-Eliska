@@ -74,3 +74,18 @@ a:focus {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
+
+.button:active {
+  color:#7A6367
+}
+
+.button.contact {
+  background-color: transparent;
+  color: #AE8189;
+  text-transform: uppercase;
+  border: 2px solid #AE8189;
+}
+.button.contact:hover {
+  background-color: #AE8189
+  ;color: #7A6367;
+}
