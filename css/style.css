@@ -37,3 +37,26 @@ h4 {
   font-weight: 400;
 }
 
+img {
+  width: 100%;
+}
+
+a {
+
+font-size: 30px; color:#AE8189;
+font-weight: bold;
+text-decoration: none;
+line-height: 2.4;
+} /* No underlining */
+
+a:hover {
+  text-decoration: underline 10px; text-decoration-color:#FFC5C5;
+  /* Underlining when hovering over a link */}
+
+a:visited { /* visited link */ color: #AE8189;}
+
+a:active { /* selected link */ color:#7A6367;}
+
+a:focus {
+  outline: 2px solid blue;}
+
