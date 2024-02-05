@@ -129,11 +129,3 @@ a:focus {
   /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
-
-header {
-  background-color: #ff44c4;
-  padding: 10px 5px 15px 5px; /* Adds 10px top, 5px right, 15px bottom, 5px left */
-  margin: 10px;
-  border-bottom: 3px solid #4a4a4a;
-}
-
