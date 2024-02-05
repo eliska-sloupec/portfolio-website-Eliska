@@ -129,3 +129,13 @@ a:focus {
   /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+}
