@@ -143,3 +143,54 @@ a:focus {
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
+
+#hero h1 {
+  text-align: center; /* Centers text */
+}
+
+.logo {
+  max-width: 250px;
+}
+
+header {
+  background-color: #fcf8f9;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #7a6367;
+}
+
+nav > ul > li > a:visited {
+  color: #ae8189;
+}
+
+nav > ul > li > a.hover {
+  text-decoration: underline 10px;
+  text-decoration-color: #ffc5c5;
+}
+
+nav > ul > li > a.active {
+  color: #7a6367;
+}
+
+nav > ul > li > a.focus {
+  text-decoration: underline 10px;
+  text-decoration-color: #ffc5c5;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
