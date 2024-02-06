@@ -148,6 +148,26 @@ a:focus {
   text-align: center; /* Centers text */
 }
 
+#hero h2 {
+  text-align: center; /* Centers text */
+}
+
+#hero h3 {
+  text-align: center; /* Centers text */
+}
+
+#hero h4 {
+  text-align: center; /* Centers text */
+}
+
+#hero h5 {
+  text-align: center; /* Centers text */
+}
+
+#hero h6 {
+  text-align: center; /* Centers text */
+}
+
 .logo {
   max-width: 250px;
 }
@@ -168,6 +188,7 @@ nav > ul > li {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 16px;
   color: #7a6367;
 }
 
