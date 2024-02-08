@@ -146,7 +146,6 @@ a:focus {
   box-sizing: border-box;
 }
 
-
 /* Layout styling */
 
 .container {
@@ -197,7 +196,16 @@ header {
   -moz-box-shadow: 0 6px 18px rgba(174, 129, 137, 0.2);
 }
 
+footer {
+  text-align: center;
+}
+
 nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul > li {
   list-style-type: none;
   padding: 0;
 }
