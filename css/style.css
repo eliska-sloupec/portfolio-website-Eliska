@@ -165,6 +165,12 @@ a:focus {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
 
+.svg {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 #hero h1 {
   text-align: center; /* Centers text */
 }
@@ -269,6 +275,12 @@ nav {
 
 [class*="col-"] {
   float: left;
+}
+
+@keyframes color-change {
+  0% { fill: #edc655; }
+  50% { fill: #fcffad; }
+  100% { fill: #f76414; }
 }
 
 /* ==============================
