@@ -281,6 +281,13 @@ Medium devices (640px and larger)
 
 [class*="col-"] {
   float: left;
+  padding: 14px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 /* ==============================
@@ -298,5 +305,11 @@ X-large devices (1440px or larger)
 @media only screen and (min-width: 1440px) {
   [class*="col-"] {
     float: left;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
