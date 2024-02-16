@@ -9,19 +9,24 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.cdnfonts.com/css/orkney" rel="stylesheet">
+    <i class="fa-solid fa-bars"></i>
 </head>
 
 <body>
     <!-- For the header -->
     <header>
-        <div class="container"><img class="logo" src="img/logo.svg" alt="Eliska Soukupova">
-            <nav>
-                <ul class="navigation">
-                    <li><a href="index.html">Work</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+        <div class="container">
+            <div class="navtoggle" id="myNavtoggle">
+                <img class="logo" src="img/logo.svg" alt="Eliska Soukupova">
+                <nav>
+                    <ul class="navigation">
+                        <li><a href="index.html">Work</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <!-- For the hero section -->
@@ -39,7 +44,8 @@
                     </div>
                     <div class="column-txt">
                         <div class="content">
-                            <p> Your go-to online store for cat supplies. Redefining the shopping experience with smart filtering and a sleek platform for accessibility and efficiency.
+                            <p> Your go-to online store for cat supplies. Redefining the shopping experience with smart
+                                filtering and a sleek platform for accessibility and efficiency.
                             </p>
                             <section class="table-contents" id="meowease-table-contents">
                                 <h2>Table of Contents</h2>
@@ -61,67 +67,87 @@
                             </section>
                             <section class="project goal" id="project goal">
                                 <h2>Project Goal</h2>
-                                <p>To offer busy individuals an effortless, user-friendly online shopping experience. By emphasizing convenience and intuitive design, I aim to empower them to easily discover and purchase products that precisely fit their needs from the comfort of their homes. Through smart filtering and a sleek platform, I'm working to redefine the online shopping landscape, making it accessible and efficient for everyone</p>
-                            <section class="brand guidelines" id="brand guidelines">
-                                <h2>Brand Guidelines</h2>
-                                <p>Part of my job also involved working on Branding Guidelines, not only for the Style Guide in UI design but also encompassing the overall tone, mission, and values of the brand across all aspects of the brand guidelines, including the use of copy and imagery. You can find what I created in this Brand Guideline document.</p>
-                            </section>
-                            <section class="solution" id="solution">
-                                <h2>Solution</h2>
-                                <p>I will create a purchasing flow for one or multiple items, emphasizing multiple payment options. My focus will be on ensuring a smooth, clear, and simple purchasing process. Create options for users to customize the number of items displayed on the screen according to their preferences. I will design this option with responsiveness in mind. Generally, I will prioritize larger item cards over smaller ones as the better option. Create screens with a detailed description of one item. On this screen, include five-star reviews from other customers, allowing the possibility to comment on the product, rate it, and engage in discussions with others.</p>
-                            </section>
-                            <section class="flow chart diagram" id="flow chart diagram">
-                                <h2>Flow Chart Diagram</h2>
-                                <img class="flow-chart-diagram"
-                                    src="img/Meowease/Flow Chart Diagram.png"
-                                    alt="flow chart diagram">
-                            </section>
-                            <section class="low-fidelity-wireframes" id="low-fidelity-wireframes">
-                                <h2>Low-Fidelity Wireframes</h2>
-                                <img class="low-fidelity-wireframes" src="img/Meowease/low-fi-wireframes.png"
-                                    alt="low-fidelity-wireframes">
-                            </section>
-                            <section class="mid-fidelity-wireframes" id="mid-fidelity-wireframes">
-                                <h2>Mid-Fidelity Wireframes</h2>
-                                <img class="mid-fidelity-wireframes" src="img/Meowease/mid-fi-wireframes.png"
-                                    alt="mid-fidelity-wireframes">
-                            </section>
-                            <section class="ui design" id="ui design">
-                                <h2>UI Design</h2>
-                                <img class="ui-design" src="img/Meowease/visual-design.png"
-                                    alt="ui-design">
-                            </section>
-                            <section class="desktop design" id="desktop design">
-                                <h2>Desktop Design</h2>
-                                <img class="desktop-design" src="img/Meowease/desktop-design.png"
-                                    alt="desktop-design">
-                            </section>
-                            <section class="conclusion" id="conclusion">
-                                <h2>Conclusion</h2>
-                                <p>I I went a step further by designing UI cards featuring product items in a user-friendly and recognizable layout, while also emphasizing the overall design structure of the app. The challenge in this project lay in working swiftly and professionally within tight time constraints to develop the design. Swiftly choosing appropriate colors 
-                                    and devising solutions were the most critical aspects of my role.</p>
-                            </section>
-                            <div class="row">
-                                <a href="https://www.figma.com/proto/HZkrXduHGR5Cdbs07uk8OL/MeowEase-prototype?page-id=0%3A1&type=design&node-id=1-733&viewport=869%2C595%2C0.29&t=hM0EAvXC6MxO592N-1&scaling=min-zoom&mode=design"
-                                    class="button" target="_blank">Mobile Prototype</a>
+                                <p>To offer busy individuals an effortless, user-friendly online shopping experience. By
+                                    emphasizing convenience and intuitive design, I aim to empower them to easily
+                                    discover and purchase products that precisely fit their needs from the comfort of
+                                    their homes. Through smart filtering and a sleek platform, I'm working to redefine
+                                    the online shopping landscape, making it accessible and efficient for everyone</p>
+                                <section class="brand guidelines" id="brand guidelines">
+                                    <h2>Brand Guidelines</h2>
+                                    <p>Part of my job also involved working on Branding Guidelines, not only for the
+                                        Style Guide in UI design but also encompassing the overall tone, mission, and
+                                        values of the brand across all aspects of the brand guidelines, including the
+                                        use of copy and imagery. You can find what I created in this Brand Guideline
+                                        document.</p>
+                                </section>
+                                <section class="solution" id="solution">
+                                    <h2>Solution</h2>
+                                    <p>I will create a purchasing flow for one or multiple items, emphasizing multiple
+                                        payment options. My focus will be on ensuring a smooth, clear, and simple
+                                        purchasing process. Create options for users to customize the number of items
+                                        displayed on the screen according to their preferences. I will design this
+                                        option with responsiveness in mind. Generally, I will prioritize larger item
+                                        cards over smaller ones as the better option. Create screens with a detailed
+                                        description of one item. On this screen, include five-star reviews from other
+                                        customers, allowing the possibility to comment on the product, rate it, and
+                                        engage in discussions with others.</p>
+                                </section>
+                                <section class="flow chart diagram" id="flow chart diagram">
+                                    <h2>Flow Chart Diagram</h2>
+                                    <img class="flow-chart-diagram" src="img/Meowease/Flow Chart Diagram.png"
+                                        alt="flow chart diagram">
+                                </section>
+                                <section class="low-fidelity-wireframes" id="low-fidelity-wireframes">
+                                    <h2>Low-Fidelity Wireframes</h2>
+                                    <img class="low-fidelity-wireframes" src="img/Meowease/low-fi-wireframes.png"
+                                        alt="low-fidelity-wireframes">
+                                </section>
+                                <section class="mid-fidelity-wireframes" id="mid-fidelity-wireframes">
+                                    <h2>Mid-Fidelity Wireframes</h2>
+                                    <img class="mid-fidelity-wireframes" src="img/Meowease/mid-fi-wireframes.png"
+                                        alt="mid-fidelity-wireframes">
+                                </section>
+                                <section class="ui design" id="ui design">
+                                    <h2>UI Design</h2>
+                                    <img class="ui-design" src="img/Meowease/visual-design.png" alt="ui-design">
+                                </section>
+                                <section class="desktop design" id="desktop design">
+                                    <h2>Desktop Design</h2>
+                                    <img class="desktop-design" src="img/Meowease/desktop-design.png"
+                                        alt="desktop-design">
+                                </section>
+                                <section class="conclusion" id="conclusion">
+                                    <h2>Conclusion</h2>
+                                    <p>I I went a step further by designing UI cards featuring product items in a
+                                        user-friendly and recognizable layout, while also emphasizing the overall design
+                                        structure of the app. The challenge in this project lay in working swiftly and
+                                        professionally within tight time constraints to develop the design. Swiftly
+                                        choosing appropriate colors
+                                        and devising solutions were the most critical aspects of my role.</p>
+                                </section>
+                                <div class="row">
+                                    <a href="https://www.figma.com/proto/HZkrXduHGR5Cdbs07uk8OL/MeowEase-prototype?page-id=0%3A1&type=design&node-id=1-733&viewport=869%2C595%2C0.29&t=hM0EAvXC6MxO592N-1&scaling=min-zoom&mode=design"
+                                        class="button" target="_blank">Mobile Prototype</a>
 
-                                <a href="¨"
-                                    class="button" target="_blank">Desktop Prototype</a>
-                            </div>
-                            <section class="more information" id="more information">
-                                <h2>More Information</h2>
-                                <p>TThroughout this project, I concentrated on e-commerce app design. I delved into understanding the users and recognized crucial aspects, such as the significance of 
-                                    a unified brand presence and the necessity of efficient filtering options for seamless shopping experiences
+                                    <a href="¨" class="button" target="_blank">Desktop Prototype</a>
+                                </div>
+                                <section class="more information" id="more information">
+                                    <h2>More Information</h2>
+                                    <p>TThroughout this project, I concentrated on e-commerce app design. I delved into
+                                        understanding the users and recognized crucial aspects, such as the significance
+                                        of
+                                        a unified brand presence and the necessity of efficient filtering options for
+                                        seamless shopping experiences
 
-                                    For more information on the research and project details, refer to the Hikevista
-                                    Case
-                                    Study below, or feel free to contact me for further inquiries.</p>
-                                <a href="https://www.behance.net/gallery/186194771/MeowEase-Case-Study"
-                                    class="button" target="_blank">View Case Study→</a>
-                            </section>
-                            <section class="thanks">
-                                <h2>Thanks for looking!</h2>
-                            </section>
+                                        For more information on the research and project details, refer to the Hikevista
+                                        Case
+                                        Study below, or feel free to contact me for further inquiries.</p>
+                                    <a href="https://www.behance.net/gallery/186194771/MeowEase-Case-Study"
+                                        class="button" target="_blank">View Case Study→</a>
+                                </section>
+                                <section class="thanks">
+                                    <h2>Thanks for looking!</h2>
+                                </section>
                             </section>
                         </div>
                     </div>
@@ -162,10 +188,8 @@
         </div>
         <!-- end footer content -->
     </footer>
-    <script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
 </body>
 

@@ -196,7 +196,7 @@ a:focus {
 }
 
 .logo {
-  max-width: 100px;
+  max-width: 150px;
 }
 
 header {
@@ -375,5 +375,11 @@ X-large devices (1440px or larger)
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media (min-width: 641px) {
+  .logo {
+    size: 115px;
   }
 }
