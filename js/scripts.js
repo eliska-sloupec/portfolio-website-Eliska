@@ -1,3 +1,11 @@
-// this is my first JavaScript code!
-console.log("Hello! Welcome to My Portfolio Site!");
+
+function menuToggle() {
+    var x = document.getElementById('myNavtoggle');
+    if (x.className === 'navtoggle') {
+      x.className += ' responsive';
+    } else {
+      x.className = 'navtoggle';
+    }
+  }
+
 
