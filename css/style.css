@@ -41,7 +41,7 @@ nav > ul > li a {
   list-style-type: none;
   padding: 0 15px;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 900;
   color: #030404;
   text-decoration: none;
 }
@@ -82,6 +82,7 @@ nav > ul > li a {
 }
 
 h3.logo {
+  font-family: 'Orkney', sans-serif;
   display: inline-block;
   text-align: center;
   font-family: 'Roboto Slab', sans-serif;
@@ -113,6 +114,7 @@ h1,
 h2,
 h3,
 h4 {
+  font-family: 'Orkney', sans-serif;
   line-height: 1.2;
 }
 
@@ -124,7 +126,7 @@ h1 {
 h2 {
   font-size: 2.25em;
   font-weight: 700;
-  padding 10px;
+  padding: 10px;
   margin: 10px;
 }
 
@@ -154,6 +156,7 @@ img {
 }
 
 p {
+  font-family: 'Orkney', bold;
   padding: 10px;
   margin: 10px;
 }
@@ -224,7 +227,7 @@ a:focus {
 }
 
 .button.contact {
-  background-color: transparent;
+  background-color: white;
   color: #ae8189;
   text-decoration: none;
   font-size: 16px;
@@ -316,12 +319,6 @@ nav > ul > li > a.focus {
   text-decoration-color: #ffc5c5;
 }
 
-.socialicon {
-max-width: 200%;
-box-sizing: fix;
-}
-
-
 #hero {
   background-color: #fcf8f9;
   padding: 20px 0;
@@ -333,6 +330,7 @@ box-sizing: fix;
 footer {
   text-align: center;
   padding: 20px;
+  background-color:  #ae8189;
 }
 
 [class*="col-"] {
