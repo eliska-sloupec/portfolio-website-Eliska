@@ -402,12 +402,15 @@ Medium devices (640px and larger)
     font-size: 18px;
   }
 
+
   .col-md-6 {
     width: 50%;
   }
 
-  .col-md-5 {
-    width: 41.66%;
+  .intromockup {
+    float: left;
+    padding: 10px;
+    width: 50%;
   }
 
   .col-md-7 {
