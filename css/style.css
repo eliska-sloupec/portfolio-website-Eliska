@@ -99,7 +99,7 @@ h3.logo {
 
 body {
   background-color: #fcf8f9;
-  font-family: 'Orkney', sans-serif;
+  font-family: 'Orkney'
   font-size: 16px;
   font-weight: 300;
 
@@ -156,7 +156,6 @@ img {
 }
 
 p {
-  font-family: 'Orkney', bold;
   padding: 10px;
   margin: 10px;
 }
