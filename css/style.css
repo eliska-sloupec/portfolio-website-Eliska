@@ -113,7 +113,7 @@ h1,
 h2,
 h3,
 h4 {
-  line-height: 1.4;
+  line-height: 1.2;
 }
 
 h1 {
@@ -124,6 +124,8 @@ h1 {
 h2 {
   font-size: 2.25em;
   font-weight: 700;
+  padding 10px;
+  margin: 10px;
 }
 
 h3 {
@@ -152,7 +154,8 @@ img {
 }
 
 p {
-  padding: 40px;
+  padding: 10px;
+  margin: 10px;
 }
 
 a {
@@ -225,6 +228,7 @@ a:focus {
   color: #ae8189;
   text-decoration: none;
   font-size: 16px;
+  margin: 8px;
   padding: 8px;
   border: 2px solid #ae8189;
   transition-duration: 0.5s;
@@ -235,6 +239,8 @@ a:focus {
   background-color: #ffc5c5;
   color: #ae8189;
   opacity: 0.6;
+  margin: 8px;
+  padding: 8px;
 
   /* Reduces the opacity of the button to 80% */
   text-decoration: none;
@@ -310,6 +316,12 @@ nav > ul > li > a.focus {
   text-decoration-color: #ffc5c5;
 }
 
+.socialicon {
+max-width: 200%;
+box-sizing: fix;
+}
+
+
 #hero {
   background-color: #fcf8f9;
   padding: 20px 0;
@@ -320,6 +332,7 @@ nav > ul > li > a.focus {
 
 footer {
   text-align: center;
+  padding: 20px;
 }
 
 [class*="col-"] {
