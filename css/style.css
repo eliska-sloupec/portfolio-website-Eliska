@@ -160,7 +160,7 @@ img {
 }
 
 p {
-  padding: 10px;
+  padding: 1Opx;
   margin: 10px;
 }
 
@@ -275,19 +275,22 @@ a:focus {
 }
 
 #hero h2 {
-  text-align: center; /* Centers text */
+  text-align: center;
 }
 
 #hero h3 {
-  text-align: center; /* Centers text */
+  text-align: center;
 }
 
 #hero h4 {
-  text-align: center; /* Centers text */
+  text-align: left;
+  text;
+  color: #7a6367;
+  text-transform: uppercase; /* Centers text */
 }
 
 #hero h5 {
-  text-align: left; /* Centers text */
+  text-align: center; /* Centers text */
 }
 
 #hero h6 {
