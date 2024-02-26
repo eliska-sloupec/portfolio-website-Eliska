@@ -10,7 +10,7 @@ Emphasize Light Pink #FFC5C5;
 /* || GENERAL STYLES */
 
 header {
-  background-color: #fcf8f9;
+  background-color: #FAF3EB;
   width: 100%;
   padding: 10px 0 4px;
   position: fixed;
@@ -74,7 +74,6 @@ nav > ul > li a {
 .navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid #ae8189;
 }
 
 .navtoggle.responsive li:last-child {
@@ -102,7 +101,7 @@ picture {
 }
 
 body {
-  background-color: #fcf8f9;
+  background-color: #FAF3EB;
   font-family: 'Orkney'
   font-size: 16px;
   font-weight: 300;
@@ -125,6 +124,7 @@ h4 {
 h1 {
   font-size: 2.75em;
   font-weight: 700,;
+  color: #0B1956;
 }
 
 h2 {
@@ -137,6 +137,7 @@ h2 {
 h3 {
   font-size: 1.75em;
   font-weight: 400;
+  color: #0B1956;
 }
 
 h4 {
@@ -149,6 +150,11 @@ h5 {
   font-weight: 400;
   padding: 10px;
   margin: 5px;
+  color: #0B1956;
+
+}
+h6 {
+  color: #0B1956;
 }
 
 main {
@@ -162,35 +168,35 @@ img {
 p {
   padding: 1Opx;
   margin: 10px;
+  color: #0B1956;
 }
 
 a {
   font-size: 16px;
-  color: #ae8189;
+  color: #0B1956;
   font-weight: bold;
   text-decoration: none;
   line-height: 2.4;
   padding: 20px;
   margin: 16px;
-  text-decoration: underline 0.15em rgba(174, 129, 137);
+  text-decoration: underline 0.15em #FB9EBB;
   text-underline-offset: 0.2em;
   transition: text-decoration-color 300ms, text-underline-offset 300ms;
 }
 
 a:hover {
-  color: #ffc5c5;
-  text-decoration-color: rgba(255, 197, 197);
+  text-decoration: underline 0.15em #FB9EBB;
   text-underline-offset: 0.4em;
 }
 
 a:visited {
   /* visited link */
-  color: #ae8189;
+  color: #0B1956;
 }
 
 a:active {
   /* selected link */
-  color: #7a6367;
+  color: ;
 }
 
 a:focus {
@@ -201,28 +207,28 @@ a:focus {
 /* general buttons */
 .button {
   display: inline-block;
+  color: #FB9EBB;
 
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: none;
 
   /* needed to override the default link color */
-  font-weight: 400;
+  font-weight: 900;
   font-size: 24px;
   text-transform: uppercase;
-  text-decoration: none;
   padding: 6px;
-  border-radius: 3px;
-  transition: 0.2s opacity;
+  border-radius: 5px;
+  
 }
 
 .button:hover {
   opacity: 0.8;
   text-decoration: underline 10px;
-  text-decoration-color: #ffc5c5;
+  text-decoration-color: #FB9EBB;
 }
 
 .button:active {
-  color: #7a6367;
+  color: #FB9EBB;
 }
 
 .prototype {
@@ -230,20 +236,21 @@ a:focus {
 }
 
 .button.contact {
-  background-color: white;
-  color: #ae8189;
+  background-color: #0B1956;
+  color: #FAF3EB;
   text-decoration: none;
   font-size: 16px;
   margin: 8px;
   padding: 8px;
-  border: 2px solid #ae8189;
+  border: 2px solid #0B1956;
+  border-radius: 15px 15px 15px 15px;
   transition-duration: 0.5s;
   transition-property: opacity;
 }
 
 .button.contact:hover {
-  background-color: #ffc5c5;
-  color: #ae8189;
+  background-color: #0B1956;
+  color: #;
   opacity: 0.6;
   margin: 8px;
   padding: 8px;
@@ -262,7 +269,7 @@ a:focus {
   margin: 15px 0; /* 25px top and bottom, 0 left and right */
 }
 
-#hero .row { padding-bottom: 25px; border-bottom: 1px solid #ae8189; }
+#hero .row { padding-bottom: 25px; border-bottom: 1px solid #0B1956; }
 
 .row::after {
   content: "";
@@ -271,30 +278,35 @@ a:focus {
 }
 
 #hero h1 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  color: #0B1956; /* Centers text */
 }
 
 #hero h2 {
   text-align: center;
+  margin-top: 40px;
+  color: #0B1956;
 }
 
 #hero h3 {
   text-align: center;
+  color: #0B1956;
 }
 
 #hero h4 {
   text-align: left;
   text;
-  color: #7a6367;
-  text-transform: uppercase; /* Centers text */
+  color: #0B1956; /* Centers text */
 }
 
 #hero h5 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  color: #0B1956; /* Centers text */
 }
 
 #hero h6 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  color: #0B1956; /* Centers text */
 }
 
 #hero span {
@@ -310,17 +322,15 @@ main {
 }
 
 nav > ul > li > a:visited {
-  color: #ae8189;
+  color: #0B1956;
 }
 
 nav > ul > li > a.hover {
   text-decoration: underline 10px;
-  text-decoration-color: #ffc5c5;
+  text-decoration-color: #FB9EBB;
 }
 
-nav > ul > li > a.active {
-  color: #7a6367;
-}
+
 
 nav > ul > li > a.focus {
   text-decoration: underline 10px;
@@ -328,7 +338,7 @@ nav > ul > li > a.focus {
 }
 
 #hero {
-  background-color: #fcf8f9;
+  background-color: #FAF3EB;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -338,7 +348,7 @@ nav > ul > li > a.focus {
 footer {
   text-align: center;
   padding: 20px;
-  background-color:  #ae8189;
+  background-color: #FEDCD3;
 }
 
 [class*="col-"] {
