@@ -10,7 +10,7 @@ Emphasize Light Pink #FFC5C5;
 /* || GENERAL STYLES */
 
 header {
-  background-color: #FAF3EB;
+  background-color: #faf3eb;
   width: 100%;
   padding: 10px 0 4px;
   position: fixed;
@@ -28,7 +28,7 @@ header {
 }
 
 nav > ul {
-  color: #0B1956;
+  color: #0b1956;
   list-style-type: none;
   padding: 0;
   margin: 1em 0;
@@ -36,7 +36,7 @@ nav > ul {
 
 ul > li {
   list-style-type: none;
-  color: #0B1956
+  color: #0b1956;
 }
 
 nav > ul > li a {
@@ -47,7 +47,6 @@ nav > ul > li a {
   color: #030404;
   text-decoration: none;
 }
-
 
 .navtoggle li:not(:last-child) {
   display: none;
@@ -87,7 +86,6 @@ h3.logo {
   font-family: 'Orkney', sans-serif;
   display: inline-block;
   text-align: center;
-  font-family: 'Roboto Slab', sans-serif;
   font-size: 20pt;
   font-weight: bold;
   margin: 0;
@@ -99,10 +97,9 @@ h3.logo {
   box-sizing: border-box;
 }
 
-
 body {
-  background-color: #FAF3EB;
-  font-family: 'Orkney'
+  background-color: #faf3eb;
+  font-family: 'Orkney';
   font-size: 16px;
   font-weight: 300;
 
@@ -120,11 +117,11 @@ h4 {
   font-family: 'Orkney', sans-serif;
   line-height: 1.2;
 }
- 10 px
+
 h1 {
   font-size: 2.75em;
   font-weight: 700,;
-  color: #0B1956;
+  color: #0b1956;
 }
 
 h2 {
@@ -137,7 +134,7 @@ h2 {
 h3 {
   font-size: 1.75em;
   font-weight: 400;
-  color: #0B1956;
+  color: #0b1956;
   margin-top: 10px;
 }
 
@@ -151,11 +148,11 @@ h5 {
   font-weight: 400;
   padding: 10px;
   margin: 5px;
-  color: #0B1956;
-
+  color: #0b1956;
 }
+
 h6 {
-  color: #0B1956;
+  color: #0b1956;
 }
 
 main {
@@ -167,37 +164,32 @@ img {
 }
 
 p {
-  padding: 1Opx;
+  padding: 10px;
   margin: 10px;
-  color: #0B1956;
+  color: #0b1956;
 }
 
 a {
   font-size: 16px;
-  color: #0B1956;
+  color: #0b1956;
   font-weight: bold;
   text-decoration: none;
   line-height: 2.4;
   padding: 20px;
   margin: 16px;
-  text-decoration: underline 0.15em #FB9EBB;
+  text-decoration: underline 0.15em #fb9ebb;
   text-underline-offset: 0.3em;
   transition: text-decoration-color 300ms, text-underline-offset 300ms;
 }
 
 a:hover {
-  text-decoration: underline 0.15em #FB9EBB;
+  text-decoration: underline 0.15em #fb9ebb;
   text-underline-offset: 0.6em;
 }
 
 a:visited {
   /* visited link */
-  color: #0B1956;
-}
-
-a:active {
-  /* selected link */
-  color: ;
+  color: #0b1956;
 }
 
 a:focus {
@@ -208,7 +200,7 @@ a:focus {
 /* general buttons */
 .button {
   display: inline-block;
-  color: #FB9EBB;
+  color: #fb9ebb;
 
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: none;
@@ -226,11 +218,11 @@ a:focus {
 .button:hover {
   opacity: 0.8;
   text-decoration: underline 10px;
-  text-decoration-color: #FB9EBB;
+  text-decoration-color: #fb9ebb;
 }
 
 .button:active {
-  color: #FB9EBB;
+  color: #fb9ebb;
 }
 
 .prototype {
@@ -238,30 +230,25 @@ a:focus {
 }
 
 .button.contact {
-  background-color: #0B1956;
-  color: #FAF3EB;
+  background-color: #0b1956;
+  color: #faf3eb;
   text-decoration: none;
   font-size: 16px;
   margin: 8px;
   padding: 8px;
-  border: 2px solid #0B1956;
+  border: 2px solid #0b1956;
   border-radius: 15px 15px 15px 15px;
   transition-duration: 0.5s;
   transition-property: opacity;
 }
 
 .button.contact:hover {
-  background-color: #0B1956;
-  color: #;
+  background-color: #0b1956;
   opacity: 0.6;
   margin: 8px;
   padding: 8px;
-
-  /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
-
-/* Layout styling */
 
 .container {
   padding: 0 30px;
@@ -271,7 +258,10 @@ a:focus {
   margin: 15px 0; /* 25px top and bottom, 0 left and right */
 }
 
-#hero .row { padding-bottom: 25px; border-bottom: 1px solid #0B1956; }
+#hero .row {
+  padding-bottom: 25px;
+   border-bottom: 1px solid #0b1956;
+}
 
 .row::after {
   content: "";
@@ -281,34 +271,33 @@ a:focus {
 
 #hero h1 {
   text-align: center;
-  color: #0B1956; /* Centers text */
+  color: #0b1956; /* Centers text */
 }
 
 #hero h2 {
   text-align: center;
   margin-top: 40px;
-  color: #0B1956;
+  color: #0b1956;
 }
 
 #hero h3 {
   text-align: center;
-  color: #0B1956;
+  color: #0b1956;
 }
 
 #hero h4 {
   text-align: left;
-  text;
-  color: #0B1956; /* Centers text */
+  color: #0b1956; /* Centers text */
 }
 
 #hero h5 {
   text-align: center;
-  color: #0B1956; /* Centers text */
+  color: #0b1956; /* Centers text */
 }
 
 #hero h6 {
   text-align: center;
-  color: #0B1956; /* Centers text */
+  color: #0b1956; /* Centers text */
 }
 
 #hero span {
@@ -324,15 +313,13 @@ main {
 }
 
 nav > ul > li > a:visited {
-  color: #0B1956;
+  color: #0b1956;
 }
 
 nav > ul > li > a.hover {
   text-decoration: underline 10px;
-  text-decoration-color: #FB9EBB;
+  text-decoration-color: #fb9ebb;
 }
-
-
 
 nav > ul > li > a.focus {
   text-decoration: underline 10px;
@@ -340,7 +327,7 @@ nav > ul > li > a.focus {
 }
 
 #hero {
-  background-color: #FAF3EB;
+  background-color: #faf3eb;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -350,15 +337,11 @@ nav > ul > li > a.focus {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #FAF3EB;
+  background-color: #faf3eb;
 }
 
 [class*="col-"] {
   float: left;
-}
-
-col-md-6 {
-  max-width: min-content;
 }
 
 @keyframes color-change {
@@ -419,7 +402,6 @@ Medium devices (640px and larger)
     font-size: 18px;
   }
 
-
   .col-md-6 {
     width: 50%;
   }
@@ -465,7 +447,7 @@ Medium devices (640px and larger)
 
   .logo {
     max-width: 100px;
-    margin-top: 0px;
+    margin-top: 1px;
   }
 }
 
@@ -518,11 +500,5 @@ Large devices (1024px or larger)
     margin-left: auto;
     margin-right: auto;
   }
-}
-
-/* ==============================
-X-large devices (1440px or larger)
-================================= */
-@media only screen and (min-width: 1440px) {
 }
 
