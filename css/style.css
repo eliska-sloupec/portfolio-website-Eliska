@@ -28,6 +28,7 @@ header {
 }
 
 nav > ul {
+  color: #0B1956;
   list-style-type: none;
   padding: 0;
   margin: 1em 0;
@@ -35,6 +36,7 @@ nav > ul {
 
 ul > li {
   list-style-type: none;
+  color: #0B1956
 }
 
 nav > ul > li a {
@@ -45,6 +47,7 @@ nav > ul > li a {
   color: #030404;
   text-decoration: none;
 }
+
 
 .navtoggle li:not(:last-child) {
   display: none;
@@ -96,9 +99,6 @@ h3.logo {
   box-sizing: border-box;
 }
 
-picture {
-
-}
 
 body {
   background-color: #FAF3EB;
@@ -138,6 +138,7 @@ h3 {
   font-size: 1.75em;
   font-weight: 400;
   color: #0B1956;
+  margin-top: 10px;
 }
 
 h4 {
@@ -180,13 +181,13 @@ a {
   padding: 20px;
   margin: 16px;
   text-decoration: underline 0.15em #FB9EBB;
-  text-underline-offset: 0.2em;
+  text-underline-offset: 0.3em;
   transition: text-decoration-color 300ms, text-underline-offset 300ms;
 }
 
 a:hover {
   text-decoration: underline 0.15em #FB9EBB;
-  text-underline-offset: 0.4em;
+  text-underline-offset: 0.6em;
 }
 
 a:visited {
@@ -216,7 +217,8 @@ a:focus {
   font-weight: 900;
   font-size: 24px;
   text-transform: uppercase;
-  padding: 6px;
+  padding: 2px;
+  margin: 2px;
   border-radius: 5px;
   
 }
@@ -348,7 +350,7 @@ nav > ul > li > a.focus {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #FEDCD3;
+  background-color: #FAF3EB;
 }
 
 [class*="col-"] {
