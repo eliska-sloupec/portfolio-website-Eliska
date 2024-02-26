@@ -83,7 +83,7 @@ nav > ul > li a {
 }
 
 h3.logo {
-  font-family: 'Orkney', sans-serif;
+  font-family: "Orkney", sans-serif;
   display: inline-block;
   text-align: center;
   font-size: 20pt;
@@ -99,7 +99,7 @@ h3.logo {
 
 body {
   background-color: #faf3eb;
-  font-family: 'Orkney';
+  font-family: "Orkney";
   font-size: 16px;
   font-weight: 300;
 
@@ -114,13 +114,13 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Orkney', sans-serif;
+  font-family: "Orkney", sans-serif;
   line-height: 1.2;
 }
 
 h1 {
   font-size: 2.75em;
-  font-weight: 700,;
+  font-weight: 700;
   color: #0b1956;
 }
 
@@ -212,7 +212,6 @@ a:focus {
   padding: 2px;
   margin: 2px;
   border-radius: 5px;
-  
 }
 
 .button:hover {
@@ -260,7 +259,7 @@ a:focus {
 
 #hero .row {
   padding-bottom: 25px;
-   border-bottom: 1px solid #0b1956;
+  border-bottom: 1px solid #0b1956;
 }
 
 .row::after {
@@ -345,9 +344,17 @@ footer {
 }
 
 @keyframes color-change {
-  0% { fill: #dce8ff; }
-  50% { fill: #3b60a8; }
-  100% { fill: #ccdbff; }
+  0% {
+    fill: #dce8ff;
+  }
+
+  50% {
+    fill: #3b60a8;
+  }
+
+  100% {
+    fill: #ccdbff;
+  }
 }
 
 .st0 {
@@ -355,8 +362,13 @@ footer {
 }
 
 @keyframes cloud-move {
-  from { transform: translate(0, 50px); }
-  to { transform: translate(200px, 50px); }
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
 }
 
 .st19 {
@@ -364,8 +376,13 @@ footer {
 }
 
 @keyframes cloud-move-reverse {
-  from { transform: translate(446px, 48px); }
-  to { transform: translate(100px, 48px); }
+  from {
+    transform: translate(446px, 48px);
+  }
+
+  to {
+    transform: translate(100px, 48px);
+  }
 }
 
 .cloud-back {
@@ -501,4 +518,3 @@ Large devices (1024px or larger)
     margin-right: auto;
   }
 }
-
