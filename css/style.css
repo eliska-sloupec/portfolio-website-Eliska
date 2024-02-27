@@ -177,7 +177,8 @@ a {
   line-height: 2.4;
   padding: 20px;
   margin: 16px;
-  text-decoration: underline 0.15em #fb9ebb;
+  text-decoration-color: #fb9ebb;
+  text-decoration-line: underline 0.15em;
   text-underline-offset: 0.3em;
   transition: text-decoration-color 300ms, text-underline-offset 300ms;
 }
@@ -236,7 +237,7 @@ a:focus {
   margin: 8px;
   padding: 8px;
   border: 2px solid #0b1956;
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 15px;
   transition-duration: 0.5s;
   transition-property: opacity;
 }
