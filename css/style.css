@@ -16,6 +16,7 @@ Emphasize Light Pink #FFC5C5;
   font-style: normal;*/
 
 header {
+  font-family: "Quicksand", sans-serif;
   background-color: #faf3eb;
   width: 100%;
   padding: 10px 0 4px;
@@ -207,6 +208,7 @@ a:focus {
 
 /* general buttons */
 .button {
+  font-family: "Quicksand", sans-serif;
   display: inline-block;
   color: #fb9ebb;
 
