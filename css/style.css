@@ -52,7 +52,7 @@ nav > ul > li a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 900;
-  color: #030404;
+  color: #0b1956;
   text-decoration: none;
 }
 
@@ -115,7 +115,7 @@ body {
   line-height: 1.6;
 
   /* Sets the line-height to 1.6 * the font-size */
-  color: #333;
+  color: #0b1956;
 }
 
 h1,
@@ -127,12 +127,14 @@ h4 {
 }
 
 h1 {
+  font-family: "Quicksand", sans-serif;
   font-size: 2.75em;
   font-weight: 700;
   color: #0b1956;
 }
 
 h2 {
+  font-family: "Quicksand", sans-serif;
   font-size: 2.25em;
   font-weight: 700;
   padding: 10px;
@@ -140,6 +142,7 @@ h2 {
 }
 
 h3 {
+  font-family: "Quicksand", sans-serif;
   font-size: 1.75em;
   font-weight: 400;
   color: #0b1956;
@@ -147,11 +150,13 @@ h3 {
 }
 
 h4 {
+  font-family: "Quicksand", sans-serif;
   font-size: 1.55em;
   font-weight: 400;
 }
 
 h5 {
+  font-family: "Quicksand", sans-serif;
   font-size: 1.21em;
   font-weight: 400;
   padding: 10px;
@@ -160,6 +165,7 @@ h5 {
 }
 
 h6 {
+  font-family: "Quicksand", sans-serif;
   color: #0b1956;
 }
 
@@ -172,6 +178,7 @@ img {
 }
 
 p {
+  font-family: "Quicksand", sans-serif;
   padding: 10px;
   margin: 10px;
   color: #0b1956;
@@ -196,14 +203,9 @@ a:hover {
   text-underline-offset: 0.6em;
 }
 
-a:visited {
-  /* visited link */
-  color: #0b1956;
-}
-
 a:focus {
   text-decoration: underline 4px;
-  text-decoration-color: #ffc5c5;
+  text-decoration-color: #fb9ebb;
 }
 
 /* general buttons */
@@ -321,9 +323,6 @@ main {
   max-width: 150px;
 }
 
-nav > ul > li > a:visited {
-  color: #0b1956;
-}
 
 nav > ul > li > a.hover {
   text-decoration: underline 10px;
@@ -332,7 +331,7 @@ nav > ul > li > a.hover {
 
 nav > ul > li > a.focus {
   text-decoration: underline 10px;
-  text-decoration-color: #ffc5c5;
+  text-decoration-color: #fb9ebb;
 }
 
 #hero {
