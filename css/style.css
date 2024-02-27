@@ -9,11 +9,11 @@ Emphasize Light Pink #FFC5C5;
 
 /* || GENERAL STYLES */
 
-/*.quicksand-<uniquifier> {
+/* .quicksand-<uniquifier> {
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
-  font-style: normal;*/
+  font-style: normal; */
 
 header {
   font-family: "Quicksand", sans-serif;
