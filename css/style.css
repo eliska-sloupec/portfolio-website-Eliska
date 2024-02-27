@@ -43,11 +43,13 @@ nav > ul {
 }
 
 ul > li {
+  font-family: "Quicksand", sans-serif;
   list-style-type: none;
   color: #0b1956;
 }
 
 nav > ul > li a {
+  font-family: "Quicksand", sans-serif;
   list-style-type: none;
   padding: 0 15px;
   text-transform: uppercase;
@@ -106,8 +108,8 @@ h3.logo {
 }
 
 body {
+  font-family: "Quicksand", sans-serif;
   background-color: #faf3eb;
-  font-family: "Orkney";
   font-size: 16px;
   font-weight: 300;
 
@@ -228,7 +230,7 @@ a:focus {
 }
 
 .button:hover {
-  opacity: 0.8;
+  opacity: 0.7;
   text-decoration: underline 10px;
   text-decoration-color: #fb9ebb;
 }
