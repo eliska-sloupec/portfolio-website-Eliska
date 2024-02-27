@@ -9,6 +9,12 @@ Emphasize Light Pink #FFC5C5;
 
 /* || GENERAL STYLES */
 
+/*.quicksand-<uniquifier> {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;*/
+
 header {
   background-color: #faf3eb;
   width: 100%;
@@ -28,6 +34,7 @@ header {
 }
 
 nav > ul {
+  font-family: "Quicksand", sans-serif;
   color: #0b1956;
   list-style-type: none;
   padding: 0;
@@ -83,7 +90,7 @@ nav > ul > li a {
 }
 
 h3.logo {
-  font-family: "Orkney", sans-serif;
+  font-family: "Quicksand", sans-serif;
   display: inline-block;
   text-align: center;
   font-size: 20pt;
@@ -114,7 +121,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Orkney", sans-serif;
+  font-family: "Quicksand", sans-serif;
   line-height: 1.2;
 }
 
